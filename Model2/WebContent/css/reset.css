@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+
+/* Start http://www.cursors-4u.com */ 
+* {cursor: url(https://cur.cursors-4u.net/cursors/cur-11/cur1054.cur), auto !important;} 
+/* End http://www.cursors-4u.com */
+
+* {margin:0; padding:0; border:0 none transparent; box-sizing:border-box;}
+:before, :after {box-sizing:border-box;}
+html, body, pre {font-family:"Noto Sans KR", sans-serif; font-size:14px; line-height:22px; color:#666; font-weight:400; letter-spacing:-0.03em; -webkit-font-smoothing: antialiased; /*-webkit-text-size-adjust:100%;*/}
+form, fieldset, p, figure {word-break:normal; word-wrap:break-word; -webkit-font-smoothing: antialiased;}
+html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, article, aside, hgroup, header, footer, figure, figcaption, nav, section { 
+	font-family:"Noto Sans KR", sans-serif; font-weight:400; letter-spacing:-0.03em; vertical-align:baseline; background:transparent; -webkit-font-smoothing: antialiased;}
+article, aside, hgroup, header, footer, figure, figcaption, nav, section { display: block; }
+body {padding:0;margin:0;box-sizing:border-box; font-family: 'Noto Sans', sans-serif; font-size:14px;color:#666; -webkit-font-smoothing: antialiased;}
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+h1, h2, h3, h4, h5, h6, strong, th{font-family:"Noto Sans KR", sans-serif; font-weight:700; color:#666;}
+blockquote:before, blockquote:after,q:before, q:after { content:''; }
+table { border-collapse:collapse; border-spacing:0; table-layout:fixed; width:100%;}
+button { margin:0; padding:0; border:0; font:inherit; color:inherit; background:transparent; overflow:visible; cursor:pointer; line-height:1; }
+a:link, a:visited, a:hover, a,active, a:focus { text-decoration:none; cursor:pointer; color:rgba(0,0,0,0.65);}
+legend, caption { display:none; }
+textarea { resize:vertical; font:inherit; overflow-y:auto; }
+input, select { color:inherit; font:inherit; vertical-align: middle; box-sizing:border-box; font-family:'Noto Sans', sans-serif}
+address, i { font-style:normal; }
+table { border-collapse:collapse; table-layout:fixed; }
+img, select, input, button { vertical-align:middle; }
+em { font-style:normal; }
+input { font-family: 'Noto Sans', sans-serif;}
+
+
+/* placeholder */
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #989898;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #989898;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: rgba(152,152,152,0.8);
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #989898;
+}
+
+input[type=text]::-ms-clear{
+	display: none;
+}
+
+.por { position:relative;}
+
+.tl {text-align:left !important;}
+.tr {text-align:right !important;}
+.tc {text-align:center !important;}
+
+.fl { float:left !important;}
+.fr { float:right !important;}
+
+.clear { clear:both;}
+
+.vt { vertical-align:top !important;}
+.vm { vertical-align:middle !important;}
+.vtb { vertical-align:text-bottom !important;}
+
+.dpi { display:inline;}
+.dpb { display:block;}
+.dpib { display:inline-block;}
+.dpn { display:none;}
+
+.clearFixed:after { content:''; display:block; clear:both;}
+
+.ellipsis { overflow:hidden; text-overflow:ellipsis; white-space:nowrap;}
+
+.blind { overflow:hidden; position:absolute; top:0; left:0; width:0; height:0; font-size:0;}
+
+
+.fw450 {font-weight:450;}
+
+.pointColor {color:#9c836a !important;}
+.pointColor4 {color:#666 !important;}
+.colorRed {color:#dc5b51 !important;}
+
+html body {word-break:break-all;}
+html[lang="ko"] body, html[lang="en"] body {word-break:keep-all;}
+/* html[lang="ja"] body {font-family: 'Noto Sans JP','Noto Sans', sans-serif;} */
+
+
+
+
+
+
+
